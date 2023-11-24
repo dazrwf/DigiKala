@@ -1,0 +1,152 @@
+.puprelbox {
+    width: 100%;
+    height: 387px;
+    padding: 16px;
+    box-sizing: border-box;
+    margin-top: 24px;
+    border-radius: 16px;
+    background-color: #941b80;
+    position: relative;
+    text-align: center;
+}
+
+.puprelbox .right {
+    width: 31%;
+    height: 100%;
+    padding-top: 24px;
+    box-sizing: border-box;
+    margin-left: 12px;
+    display: inline-block;
+    background-image: url("../images/purpelbox/bgimg.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 0 100%;
+    position: absolute;
+    right: 16px;
+}
+
+.puprelbox .right .digiplus {
+    width: 100%;
+    height: 114px;
+    padding-right: 24px;
+    box-sizing: border-box;
+}
+
+.puprelbox .right .digiplus p {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 4px;
+}
+
+.puprelbox .right .digiplus a {
+    display: block;
+    width: 105px;
+    height: 36px;
+    padding: 4px 16px;
+    border: 1px solid #f0f0f1;
+    margin-top: 12px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.puprelbox .right .digiplus a i {
+    font-size: 14px;
+    vertical-align: middle;
+    margin-right: 8px;
+}
+
+.puprelbox .left {
+    width: 65%;
+    height: 355px;
+    padding: 0 16px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 16px;
+    background-color: #fff;
+}
+
+.puprelbox .left .top {
+    width: 100%;
+    height: 65px;
+    position: relative;
+    padding: 16px 0;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+.puprelbox .left .top .right-2 {
+    width: 117px;
+    height: 33px;
+    margin-right: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    position: absolute;
+    right: 0;
+}
+
+.puprelbox .left .top .left-2 {
+    width: 86px;
+    height: 33px;
+    margin-left: 8px;
+    font-size: 12px;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    color: #b12ba4;
+    cursor: pointer;
+    font-weight: 700;
+    text-decoration: none;
+    line-height: 33px;
+
+}
+
+.puprelbox .left .top .left-2 i {
+    font-size: 13px;
+    color: #b12ba4;
+    vertical-align: middle;
+}
+
+.puprelbox .left .bottom {
+    width: 100%;
+    height: 280px;
+}
+
+.puprelbox .left .bottom .up {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.puprelbox .left .bottom .down {
+    width: 100%;
+    height: 130px;
+    margin-bottom: 10px;
+}
+
+.puprelbox .left .bottom .up div {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    cursor: pointer;
+}
+
+.puprelbox .left .bottom .down div {
+    display: inline-block;
+    width: 130px;
+    height: 130px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.puprelbox .left .bottom div img {
+    width: 116px;
+    height: 116px;
+}
