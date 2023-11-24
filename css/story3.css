@@ -1,0 +1,66 @@
+.story-3{
+    width: 100%;
+    height: 440px;
+    padding: 16px 16px 40px 16px;
+    box-sizing: border-box;
+    margin-top: 50px;
+
+}
+.story-3 h3{
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    font-family: yekan;
+    background-color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 36px;
+}
+.story-3 .first{
+    width: 100%;
+    height: 135px;
+    text-align: center;
+}
+.story-3 .first div{
+    width: 185px;
+    height: 135px;
+    display: inline-block;
+    margin-right: -3px;
+    cursor: pointer;
+}
+.story-3 .first div p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: yekan;
+    color: #000;
+}
+.story-3 .first div img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+
+.story-3 .secend{
+    width: 100%;
+    height: 135px;
+    text-align: center;
+}
+.story-3 .secend div{
+    width: 185px;
+    height: 135px;
+    display: inline-block;
+    margin-right: -3px;
+    cursor: pointer;
+}
+.story-3 .secend div p{
+    font-size: 12px;
+    font-weight: 700;
+    font-family: yekan;
+    color: #000;
+
+}
+.story-3 .secend div img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}

@@ -1,0 +1,124 @@
+.amazingbox {
+    width: 100%;
+    height: 110px;
+    padding: 16px 40px 12px 40px;
+    box-sizing: border-box;
+    background-color: #f2f2f2;
+    margin-top: 20px;
+    border-radius: 16px;
+
+}
+
+.amazingshor {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #f2f2f2;
+}
+
+.amazingbox .amazingshor .right {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+
+}
+
+.amazingbox .amazingshor .right img {
+    margin-top: 9px;
+    width: 64px;
+    height: 64px;
+    position: absolute;
+    right: 0;
+}
+.amazingbox .amazingshor .right svg {
+    margin-top: 27px;
+    position: absolute;
+    right: 70px;
+}
+.amazingbox .amazingshor .right .bottom{
+    width: 111px;
+    height: 28px;
+    background-color: #39ae00;
+    position: absolute;
+    left: 7%;
+    border-radius: 999px;
+    padding:  0 12px;
+    box-sizing: border-box;
+    margin-top: 27px;
+
+    
+}
+.amazingbox .amazingshor .right .bottom a{
+    color: #fff;
+    font-weight: 600;
+    font-family: yekan;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 28px;
+
+}
+
+.amazingbox .amazingshor .mid {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -3.5px;
+}
+.amazingbox .amazingshor .mid div {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 5px;
+    position: relative;
+}
+.amazingbox .amazingshor .mid div span{
+    display: inline-block;
+    width: 35px;
+    height: 15px;
+    background-color:crimson;
+    border-radius: 999px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: yekan;
+    position: absolute;
+    right: -10px;
+    top: 60px;
+
+
+}
+.amazingbox .amazingshor .mid div img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 60%;
+}
+
+
+.amazingbox .amazingshor .left {
+    width: 10%;
+    height: 100%;
+    display: inline-block;
+    margin-right: -3.5px;
+    vertical-align: top;
+    padding-top: 16px;
+    box-sizing: border-box;
+}
+.amazingbox .amazingshor .left a{
+    display: inline-block;
+    width: 137px;
+    height: 50px;
+    border-radius: 999px;
+    background-color: #fff;
+    text-decoration: none;
+    color: #39ae00;
+    font-family: yekan;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    line-height: 50px;
+    
+}

@@ -1,0 +1,84 @@
+.offer{
+    width: 100%;
+    height: 395px;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+.offer h2{
+    display: block;
+    font-size: 18px;
+    font-weight: 700;
+    padding: 16px 0;
+    box-sizing: border-box;
+    text-align: center;
+    margin-top: 30px;
+}
+.offer .main{
+    width: 100%;
+    height: 310px;
+    border: 1px solid #e0e0e2;
+    border-radius: 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.offer .main .column{
+    width: 182px;
+    height: 100%;
+    display: inline-block;
+    border-right: 2px solid #f0f0f1;
+    position: relative;
+    vertical-align: top;
+}
+.offer .main .column p{
+    width: 100%;
+    font-size: 14px;
+    overflow: hidden;
+    font-weight: 400;
+    color: #0c0c0c;
+    text-align: center;
+    margin-top: 8px;
+}
+.offer .main .column .up{
+    width: 100%;
+    height: 50%;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    text-align: center;
+    border-bottom: 2px solid #f0f0f1;
+}
+.offer .main .column .down{
+    width: 100%;
+    height: 50%;
+    padding: 4px 16px;
+    box-sizing: border-box;
+    text-align: center;
+}
+.offer .main .column .up .img{
+    width: 84px;
+    height: 84px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+
+}
+.offer .main .column .up .img img{
+    width: 60px;
+    height: 60px;
+}
+.offer .main .column .down .img{
+    width: 84px;
+    height: 84px;
+    background-color: #fff;
+    border-radius: 50%;
+    padding: 12px;
+    box-sizing: border-box;
+    display: inline-block;
+    cursor: pointer;
+}
+.offer .main .column .down .img img{
+    width: 60px;
+    height: 60px;
+}
