@@ -11,6 +11,7 @@
     width: 100%;
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 .swiper--3 .swiper-slide{
     height: 118px;
@@ -22,6 +23,8 @@
 }
 .swiper--3 img{
     width: 110px !important;
+    height: 110px !important;
     object-fit: contain;
+    vertical-align: middle;
 
 }

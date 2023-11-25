@@ -1,31 +1,33 @@
-.story-2{
-    width: 85%;
+.story-2 {
+    width: 100%;
     height: 95px;
     padding: 8px 12px;
     box-sizing: border-box;
     text-align: center;
     margin: 20px auto;
 }
-.story-2 div{
-    width: fit-content;
+.story-2 div {
+    width: 10%;
     height: 80px;
-    display:inline-block;
+    display: inline-block;
     vertical-align: middle;
-    margin: 0 30px;
     cursor: pointer;
-    
 }
-.story-2 div i{
+.story-2 div i {
     font-size: 55px;
 }
 .story-2 div img {
     width: 55px;
     height: 55px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
-.story-2 div h4{
+.story-2 div h4 {
     font-size: 11px;
     font-weight: 700;
     text-align: center;
     font-family: yekan;
     color: #3f4064;
+    margin-top: 10px;
 }

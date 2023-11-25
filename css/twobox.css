@@ -6,13 +6,11 @@
 }
 .twobox div{
     width: 49.5%;
-    height: 100%;
     display: inline-block;
     cursor: pointer;
 }
 .twobox div img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 16px;
 }

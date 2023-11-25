@@ -1,5 +1,5 @@
 .story-3{
-    width: 85%;
+    width: 100%;
     height: 440px;
     padding: 16px 16px 40px 16px;
     box-sizing: border-box;
@@ -24,7 +24,7 @@
     margin-bottom: 30px;
 }
 .story-3 .first div{
-    width: 14%;
+    width: 12%;
     height: 135px;
     display: inline-block;
     margin-right: -3px;
@@ -35,11 +35,15 @@
     font-weight: 700;
     font-family: yekan;
     color: #000;
+    margin-top: 15px;
+
 }
 .story-3 .first div img{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }
 
 
@@ -49,7 +53,7 @@
     text-align: center;
 }
 .story-3 .secend div{
-    width: 14%;
+    width: 12%;
     height: 135px;
     display: inline-block;
     margin-right: -3px;
@@ -60,10 +64,13 @@
     font-weight: 700;
     font-family: yekan;
     color: #000;
+    margin-top: 15px;
 
 }
 .story-3 .secend div img{
     width: 100px;
     height: 100px;
     object-fit: cover;
+    display: block;
+    margin: 0 auto;
 }

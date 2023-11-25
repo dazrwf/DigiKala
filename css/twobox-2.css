@@ -7,14 +7,12 @@
     margin-right: auto;
 }
 .twobox-2 div{
-    width: 49.7%;
-    height: 100%;
+    width: 49.5%;
     display: inline-block;
     cursor: pointer;
 }
 .twobox-2 div img{
     width: 100%;
-    height: 100%;
     object-fit: cover;
     border-radius: 16px;
 }
