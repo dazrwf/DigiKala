@@ -13,7 +13,7 @@ div.story>div{
 
 }
 div.story>div>img{
-    width: 75px;
+    width: 70px;
     border-radius: 50%;
     outline: 2px solid crimson;
     outline-offset: 3px ;

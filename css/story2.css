@@ -4,14 +4,14 @@
     padding: 8px 12px;
     box-sizing: border-box;
     text-align: center;
-    margin: 0 auto;
+    margin: 20px auto;
 }
 .story-2 div{
     width: fit-content;
     height: 80px;
     display:inline-block;
     vertical-align: middle;
-    margin: 0 50px;
+    margin: 0 30px;
     cursor: pointer;
     
 }

@@ -3,13 +3,13 @@ div.swiper {
     height: 100%;
 }
 
-div.swiper-slide, .box-slide {
+div.swiper-slide, .box-slide{
     display: flex;
     justify-content: center;
     align-items:center;
 }
 
-div.swiper-slide img {
+div.swiper-slide, img {
     display: block;
     width: 100%;
     object-fit: cover;
