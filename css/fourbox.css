@@ -1,8 +1,8 @@
 .fourbox{
-    width: 100%;
+    width: 85%;
     height: 242px;
-    margin-top: 30px;
     text-align: center;
+    margin: 30px auto 0 auto;
 }
 .fourbox div{
     width: 24% ;

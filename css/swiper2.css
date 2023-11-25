@@ -1,10 +1,11 @@
 .redbox{
-    width: 100%;
+    width: 85%;
     height: 300px;
     background-color: crimson;
     padding: 20px 2px;
     box-sizing: border-box;
     border-radius: 16px;
+    margin:0 auto;
 }
 .redbox .box-slide{
     width: fit-content;

@@ -1,9 +1,10 @@
 .story-2{
-    width: 100%;
+    width: 85%;
     height: 95px;
     padding: 8px 12px;
     box-sizing: border-box;
     text-align: center;
+    margin: 0 auto;
 }
 .story-2 div{
     width: fit-content;

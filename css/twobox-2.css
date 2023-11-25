@@ -1,11 +1,13 @@
 .twobox-2{
-    width: 100%;
+    width: 85%;
     height: 265px;
     text-align: center;
     margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
 }
 .twobox-2 div{
-    width: 49%;
+    width: 49.7%;
     height: 100%;
     display: inline-block;
     cursor: pointer;

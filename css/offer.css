@@ -1,13 +1,14 @@
 .offer{
-    width: 100%;
+    width: 85%;
     height: 395px;
     padding: 0 10px;
     box-sizing: border-box;
+    margin: 0 auto;
 }
 .offer h2{
     display: block;
-    font-size: 18px;
-    font-weight: 700;
+    font-size: 1.6rem;
+    font-weight: 500;
     padding: 16px 0;
     box-sizing: border-box;
     text-align: center;
@@ -22,10 +23,10 @@
     text-align: center;
 }
 .offer .main .column{
-    width: 182px;
+    width: 13.7%;
     height: 100%;
     display: inline-block;
-    border-right: 2px solid #f0f0f1;
+    border-right: 1px solid #f0f0f1;
     position: relative;
     vertical-align: top;
 }
@@ -44,7 +45,7 @@
     padding: 4px 16px;
     box-sizing: border-box;
     text-align: center;
-    border-bottom: 2px solid #f0f0f1;
+    border-bottom: 1px solid #f0f0f1;
 }
 .offer .main .column .down{
     width: 100%;
@@ -67,6 +68,8 @@
 .offer .main .column .up .img img{
     width: 60px;
     height: 60px;
+    object-fit: cover;
+
 }
 .offer .main .column .down .img{
     width: 84px;
@@ -81,4 +84,5 @@
 .offer .main .column .down .img img{
     width: 60px;
     height: 60px;
+    object-fit: cover;
 }

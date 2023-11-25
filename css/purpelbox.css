@@ -1,5 +1,5 @@
 .puprelbox {
-    width: 100%;
+    width: 85%;
     height: 387px;
     padding: 16px;
     box-sizing: border-box;
@@ -8,6 +8,8 @@
     background-color: #941b80;
     position: relative;
     text-align: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .puprelbox .right {
@@ -121,32 +123,31 @@
 
 .puprelbox .left .bottom .up {
     width: 100%;
-    height: 130px;
-    margin-bottom: 10px;
+    height: 50%;
 }
 
 .puprelbox .left .bottom .down {
     width: 100%;
-    height: 130px;
-    margin-bottom: 10px;
+    height: 50%;
 }
 
 .puprelbox .left .bottom .up div {
+    width:16%;
+    height: 90%;
     display: inline-block;
-    width: 130px;
-    height: 130px;
     cursor: pointer;
 }
-
 .puprelbox .left .bottom .down div {
+    width:16%;
+    height: 90%;
     display: inline-block;
-    width: 130px;
-    height: 130px;
-    text-align: center;
     cursor: pointer;
 }
 
 .puprelbox .left .bottom div img {
-    width: 116px;
-    height: 116px;
+    width:110px;
+    height: 110px;
+    object-fit: cover;
+
+
 }
