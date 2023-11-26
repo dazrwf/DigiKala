@@ -1,8 +1,8 @@
 div.story{
     width: 90%;
-    height: 150px;
+    height: 130px;
     text-align: center;
-    margin: 20px auto;
+    margin: 20px auto 0 auto;
     background-color: #fff;
 }
 div.story>div{

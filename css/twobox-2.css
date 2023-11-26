@@ -1,6 +1,6 @@
 .twobox-2{
     width: 85%;
-    height: 265px;
+    height: fit-content;
     text-align: center;
     margin-top: 50px;
     margin-left: auto;

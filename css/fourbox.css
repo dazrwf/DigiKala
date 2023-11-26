@@ -1,11 +1,12 @@
 .fourbox{
     width: 85%;
-    height: 242px;
+    height: fit-content;
     text-align: center;
     margin: 30px auto 0 auto;
 }
 .fourbox div{
     width: 24.5%;
+    height: fit-content;
     display: inline-block;
     border-radius: 16px;
 }
