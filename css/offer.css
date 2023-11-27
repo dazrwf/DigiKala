@@ -46,6 +46,7 @@
     box-sizing: border-box;
     text-align: center;
     border-bottom: 1px solid #f0f0f1;
+    cursor: pointer;
 }
 .offer .main .column .down{
     width: 100%;
@@ -53,6 +54,8 @@
     padding: 4px 16px;
     box-sizing: border-box;
     text-align: center;
+    cursor: pointer;
+
 }
 .offer .main .column .up .img{
     width: 84px;
