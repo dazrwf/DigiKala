@@ -242,7 +242,8 @@ header>div.bottom>div.citys>p>i {
     text-align: center;
     line-height: 40px;
 }
-.bottom div.city-selector label[for=open-x] p{
+
+.bottom div.city-selector label[for=open-x] p {
     font-size: 13px;
     font-weight: 400;
     color: rgb(63, 64, 100);
@@ -397,4 +398,117 @@ header>div.bottom>div.citys>p>i {
     height: 100%;
     overflow-y: scroll;
     overflow-x: hidden;
+}
+
+
+/* sub menu */
+.submenu{
+    width: calc(80vw - 40px);
+    height: 60vh;
+    position: absolute;
+    display: none;
+    transition: 300ms;
+    border-radius: 8px;
+    background-color: #fff;}
+
+.bottom nav div:hover .submenu {
+    display: block;
+    transition: 300ms;
+}
+
+
+div .submenu div {
+    width: 12%;
+    height: inherit;
+    overflow-y: auto;
+    overflow-x: hidden;
+    direction: ltr;
+    background-color: #f0f0f1;
+}
+
+div .submenu div div {
+    width: 100%;
+    height: 45px;
+}
+div .submenu div div a.list {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: #3f4064;
+    display: block;
+    width: inherit;
+    height: inherit;
+    text-align: right;
+    transition: 300ms;
+    line-height: 45px;
+    background-color: #f0f0f1;
+}
+div .submenu div div a.list:hover {
+    background-color: #fff;
+    color: #ef4056;
+
+}
+div .submenu div div a.list .subsubmenu {
+    width: 88%;
+    height: 60vh;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+    border-radius: 8px;
+    background-color: #fff;
+
+
+}
+div .submenu div div a.list:hover .subsubmenu {
+    display: block;
+} 
+div .submenu div div a.list  .subsubmenu  div {
+    width:24%;
+    height: inherit;
+    display: inline-block;
+    margin-right:-4px;
+    overflow:visible;
+    vertical-align: top;
+    padding-right: 10px;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+div .submenu div div a.list  .subsubmenu  div p{
+    width: 100%;
+    text-align: right;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+    margin-top: 10px;
+    color: #000;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+div .submenu div div a.list  .subsubmenu  div p:hover{
+    color: #ef4056;
+}
+div .submenu div div a.list  .subsubmenu  div p::after{
+    content: "";
+    display: inline-block;
+    width: 2px;
+    height: 14px;
+    margin-left: 8px;
+    margin-left: 4px;
+    background-color: #ef4056;
+    vertical-align: middle;
+}
+div .submenu div div a.list  .subsubmenu  div span{
+    height: 30px;
+    display: block;
+    margin-top: 2px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #81858b;
+    cursor: pointer;
+    font-family: yekan, Arial;
+}
+div .submenu div div a.list  .subsubmenu  div span:hover{
+    color: #ef4056;
 }

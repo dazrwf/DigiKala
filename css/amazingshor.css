@@ -28,6 +28,7 @@
     vertical-align: top;
     position: relative;
     background-color: #fff;
+    cursor: pointer;
 }
 .amazingshor .items div:nth-of-type(1){
     border-radius: 0 8px 8px 0;
@@ -44,6 +45,7 @@
     display: inline-block;
     font-weight: 700;
     line-height: 62px;
+    cursor: pointer;
 
 }
 .amazingshor .items div img{
