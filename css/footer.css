@@ -1,0 +1,266 @@
+footer{
+    width: 100%;
+    margin-top: 48px;
+    padding-top: 32px;
+    border-top: 1.250px solid #f0f0f1;
+    height: 1160px;
+}
+
+footer .main{
+    width: 100%;
+    height: inherit;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+footer .main .top{
+    width: 100%;
+    height: 40px;
+    margin: 0 auto;
+    position: relative;
+}
+footer .main .top svg{
+    margin-top: 2px;
+}
+footer .main .top .left{
+    width: 140px;
+    height: 40px;
+    background-color: #fff;
+    position: absolute;
+    display: inline-block;
+    left: 0;
+    box-sizing: border-box;
+    padding: 8px 16px;
+    font-size: 12px;
+    color: #a1a3a8;
+    border: 1px solid #e0e0e2;
+    font-weight: 700;
+    border-radius: 8px;
+    cursor: pointer;
+
+}
+footer .main .top .left i{
+    margin-right: 8px;
+    vertical-align: middle;
+}
+footer .main .top a{
+    display: inline-block;
+    vertical-align: top;
+}
+footer .main .phone{
+    width: 100%;
+    height: 26px;
+    margin: 12px auto 0 auto;
+}
+footer .main .phone p{
+    height: 26px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #3f4064;
+    display: inline-block;
+}
+footer .main .phone div{
+    padding: 0 20px;
+    box-sizing: border-box;
+    font-weight: 400;
+    color: #a1a3a8;
+    width: 2px;
+    display: inline-block;
+    height: 26px;
+}
+footer .main .storys{
+    width: 100%;
+    height: 103px;
+    margin: 32px 0;
+    text-align: center;
+}
+footer .main .storys #five{
+    width: 19.5%;
+    height: 103px;
+    display: inline-block;
+    padding: 12px 0;
+    box-sizing: border-box;
+    vertical-align: top;
+}
+footer .main .storys #five .svg{
+    width: 56px;
+    height: 56px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+footer .main .storys #five p{
+    font-size: 11px;
+    font-weight: 400;
+    text-align: center;
+    color: #3f4064;
+    cursor: pointer;
+}
+
+.about{
+    width: 100%;
+    height: 270px;
+    text-align: center;
+}
+.about .us{
+    display: inline-block;
+    width: 24.5%;
+    height: 100%;
+    vertical-align: top;
+}
+.about .us p{
+    font-size: 16px;
+    font-weight: 700;
+    color: #3f4064;
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-align: right;
+    height: 33px;
+    line-height: 33px;
+
+}
+.about .us span{
+    font-size: 14px;
+    font-weight: 400;
+    color: #81858b;
+    display: block;
+    margin-bottom: 8px;
+    cursor: pointer;
+    text-align: right;
+    height: 30px;
+    line-height: 30px;
+}
+.about .us h4{
+    font-size: 16px;
+    margin-bottom: 12px;
+    height: 33px;
+    line-height: 33px;
+    color: #3f4064;
+    font-weight: 700;
+}
+.about .us .social{
+    width: fit-content;
+    height: 40px;
+    margin-bottom: 32px;
+
+}
+.about .us .social i{
+    display: inline-block;
+    font-size: 36px;
+    color: #a1a3a8;
+    text-align: right;
+    margin-left: 32px;
+}
+.about .us form{
+    width: 90%;
+    height: 50px;
+    position: relative;
+}
+.about .us form label[for=email]{
+    position: absolute;
+    width: 80%;
+    display: inline-block;
+    right: 0;
+    height: inherit;
+    text-align: right;
+
+}
+.about .us form label[for=email] input{
+    width: calc(100% - 16px);
+    height: inherit;
+    border: 0;
+    border-radius: 8px;
+    background-color: #f0f0f1;
+    caret-color: #ef4056;
+    color: #3f4064;
+    font-size: 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+}
+.about .us form button{
+    width: 55px;
+    height: 50px;
+    background-color: #e0e0e2;
+    border: 1px solid #e0e0e2;
+    color: #fff;
+    padding: 12px 16px;
+    box-sizing: border-box;
+    position: absolute;
+    left: 30px;
+    font-weight: 700;
+    font-size: 16px;
+    border-radius: 8px;
+}
+.app{
+    width: 100%;
+    height: 75px;
+    padding: 8px 20px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #3c4b6d;
+    margin: 0 auto 28px auto;
+    position: relative;
+}
+.app img{
+    width: 44px;
+    height: 44px;
+    display: inline-block;
+    position: absolute;
+    top: 16px;
+}
+.app p{
+    height: 44px;
+    display: inline-block;
+    width: fit-content;
+    font-size: 21px;
+    right: 80px;
+    color: #fff;
+    font-weight: 500;
+    position: absolute;
+    top: 16px;
+    line-height: 44px;
+}
+.app .left{
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    height: 50px;
+}
+.app .left svg:nth-of-type(4){
+    width: 41px;
+    height: 43px;
+    position: relative;
+    background-color: white;
+    border-radius: 4px;
+    margin: 8px;
+
+}
+.app .left svg:nth-of-type(1){
+    width: fit-content;
+    border-radius: 4px;
+    object-fit: contain;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+}
+.app .left svg:nth-of-type(2){
+    width: fit-content;
+    border-radius: 4px;
+    object-fit: contain;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+
+}
+.app .left svg:nth-of-type(3){
+    width: fit-content;
+    border-radius: 4px;
+    object-fit: contain;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+
+}
+
