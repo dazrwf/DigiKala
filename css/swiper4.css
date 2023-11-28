@@ -9,6 +9,12 @@
   font-size: 21px;
   color: #000;
   margin: 10px 0;
+  font-weight: 500;
+}
+.popular .swiper h4 i{
+  font-size: 25px;
+  color: orange;
+  margin-left: 10px;
 }
 .popular .swiper{
   width: 85%;
@@ -16,8 +22,9 @@
   text-align: center;
   margin: 20px auto;
   position: relative;
-  border: 2px solid #f0f0f1;
+  border: 1px solid #e0e0e2;
   border-radius: 16px;
+  margin-bottom: 30px;
 }
 .popular .swiper .swiper-slide{
   width: 25% !important;
