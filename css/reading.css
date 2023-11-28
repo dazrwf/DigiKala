@@ -26,6 +26,8 @@
     left: 20px;
     color: #19bfd3;
     line-height: 33px;
+    cursor: pointer;
+
 
 }
 .reading .bottom {
@@ -46,6 +48,7 @@
     height: 200px;
     margin: 0 auto;
     border-radius: 8px 8px 0 0;
+    cursor: pointer;
 }
 .reading .bottom div p {
     margin: 8px 0px 12px 8px;
@@ -54,4 +57,6 @@
     text-align: right;
     font-size: 12px;
     line-height: 30px;
+    cursor: pointer;
+
 }
