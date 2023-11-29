@@ -12,7 +12,25 @@
 }
 div.wrapper {
   width: 100%;
-  min-height: 8000px;
+  height: fit-content;
+}
+div.wrapper .support{
+  width: 48px;
+  height: 48px;
+  background-color: #ef4056;
+  padding: 12px;
+  box-sizing: border-box;
+  position: fixed;
+  left: 50px;
+  bottom: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+div.wrapper .support i{
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 24px;
 }
 /* width */
 ::-webkit-scrollbar {

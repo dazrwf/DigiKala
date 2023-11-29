@@ -1,27 +1,30 @@
-footer{
+footer {
     width: 100%;
     margin-top: 48px;
     padding-top: 32px;
     border-top: 1.250px solid #f0f0f1;
-    height: 1160px;
+    height:fit-content;
 }
 
-footer .main{
+footer .main {
     width: 100%;
-    height: inherit;
+    height: fit-content;
     padding: 0 20px;
     box-sizing: border-box;
 }
-footer .main .top{
+
+footer .main .top {
     width: 100%;
     height: 40px;
     margin: 0 auto;
     position: relative;
 }
-footer .main .top svg{
+
+footer .main .top svg {
     margin-top: 2px;
 }
-footer .main .top .left{
+
+footer .main .top .left {
     width: 140px;
     height: 40px;
     background-color: #fff;
@@ -38,27 +41,32 @@ footer .main .top .left{
     cursor: pointer;
 
 }
-footer .main .top .left i{
+
+footer .main .top .left i {
     margin-right: 8px;
     vertical-align: middle;
 }
-footer .main .top a{
+
+footer .main .top a {
     display: inline-block;
     vertical-align: top;
 }
-footer .main .phone{
+
+footer .main .phone {
     width: 100%;
     height: 26px;
     margin: 12px auto 0 auto;
 }
-footer .main .phone p{
+
+footer .main .phone p {
     height: 26px;
     font-size: 12px;
     font-weight: 400;
     color: #3f4064;
     display: inline-block;
 }
-footer .main .phone div{
+
+footer .main .phone div {
     padding: 0 20px;
     box-sizing: border-box;
     font-weight: 400;
@@ -67,13 +75,15 @@ footer .main .phone div{
     display: inline-block;
     height: 26px;
 }
-footer .main .storys{
+
+footer .main .storys {
     width: 100%;
     height: 103px;
     margin: 32px 0;
     text-align: center;
 }
-footer .main .storys #five{
+
+footer .main .storys #five {
     width: 19.5%;
     height: 103px;
     display: inline-block;
@@ -81,13 +91,15 @@ footer .main .storys #five{
     box-sizing: border-box;
     vertical-align: top;
 }
-footer .main .storys #five .svg{
+
+footer .main .storys #five .svg {
     width: 56px;
     height: 56px;
     margin: 0 auto;
     cursor: pointer;
 }
-footer .main .storys #five p{
+
+footer .main .storys #five p {
     font-size: 11px;
     font-weight: 400;
     text-align: center;
@@ -95,18 +107,20 @@ footer .main .storys #five p{
     cursor: pointer;
 }
 
-.about{
+.about {
     width: 100%;
     height: 270px;
     text-align: center;
 }
-.about .us{
+
+.about .us {
     display: inline-block;
     width: 24.5%;
     height: 100%;
     vertical-align: top;
 }
-.about .us p{
+
+.about .us p {
     font-size: 16px;
     font-weight: 700;
     color: #3f4064;
@@ -118,7 +132,8 @@ footer .main .storys #five p{
     line-height: 33px;
 
 }
-.about .us span{
+
+.about .us span {
     font-size: 14px;
     font-weight: 400;
     color: #81858b;
@@ -129,7 +144,8 @@ footer .main .storys #five p{
     height: 30px;
     line-height: 30px;
 }
-.about .us h4{
+
+.about .us h4 {
     font-size: 16px;
     margin-bottom: 12px;
     height: 33px;
@@ -137,25 +153,29 @@ footer .main .storys #five p{
     color: #3f4064;
     font-weight: 700;
 }
-.about .us .social{
+
+.about .us .social {
     width: fit-content;
     height: 40px;
     margin-bottom: 32px;
 
 }
-.about .us .social i{
+
+.about .us .social i {
     display: inline-block;
     font-size: 36px;
     color: #a1a3a8;
     text-align: right;
     margin-left: 32px;
 }
-.about .us form{
+
+.about .us form {
     width: 90%;
     height: 50px;
     position: relative;
 }
-.about .us form label[for=email]{
+
+.about .us form label[for=email] {
     position: absolute;
     width: 80%;
     display: inline-block;
@@ -164,7 +184,8 @@ footer .main .storys #five p{
     text-align: right;
 
 }
-.about .us form label[for=email] input{
+
+.about .us form label[for=email] input {
     width: calc(100% - 16px);
     height: inherit;
     border: 0;
@@ -176,7 +197,8 @@ footer .main .storys #five p{
     padding: 0 8px;
     box-sizing: border-box;
 }
-.about .us form button{
+
+.about .us form button {
     width: 55px;
     height: 50px;
     background-color: #e0e0e2;
@@ -190,7 +212,8 @@ footer .main .storys #five p{
     font-size: 16px;
     border-radius: 8px;
 }
-.app{
+
+.app {
     width: 100%;
     height: 75px;
     padding: 8px 20px;
@@ -200,14 +223,16 @@ footer .main .storys #five p{
     margin: 0 auto 28px auto;
     position: relative;
 }
-.app img{
+
+.app img {
     width: 44px;
     height: 44px;
     display: inline-block;
     position: absolute;
     top: 16px;
 }
-.app p{
+
+.app p {
     height: 44px;
     display: inline-block;
     width: fit-content;
@@ -219,13 +244,15 @@ footer .main .storys #five p{
     top: 16px;
     line-height: 44px;
 }
-.app .left{
+
+.app .left {
     display: inline-block;
     position: absolute;
     left: 20px;
     height: 50px;
 }
-.app .left svg:nth-of-type(4){
+
+.app .left svg:nth-of-type(4) {
     width: 41px;
     height: 43px;
     position: relative;
@@ -234,26 +261,18 @@ footer .main .storys #five p{
     margin: 8px;
 
 }
-.app .left svg:nth-of-type(1){
-    width: fit-content;
-    border-radius: 4px;
-    object-fit: contain;
-    height: 44px;
-    position: relative;
-    display: inline-block;
-    margin: 8px;
-}
-.app .left svg:nth-of-type(2){
-    width: fit-content;
-    border-radius: 4px;
-    object-fit: contain;
-    height: 44px;
-    position: relative;
-    display: inline-block;
-    margin: 8px;
 
+.app .left svg:nth-of-type(1) {
+    width: fit-content;
+    border-radius: 4px;
+    object-fit: contain;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
 }
-.app .left svg:nth-of-type(3){
+
+.app .left svg:nth-of-type(2) {
     width: fit-content;
     border-radius: 4px;
     object-fit: contain;
@@ -264,3 +283,161 @@ footer .main .storys #five p{
 
 }
 
+.app .left svg:nth-of-type(3) {
+    width: fit-content;
+    border-radius: 4px;
+    object-fit: contain;
+    height: 44px;
+    position: relative;
+    display: inline-block;
+    margin: 8px;
+}
+
+.more {
+    width: 100%;
+    height: fit-content;
+    padding: 32px 0;
+    border-top: 1px solid #f0f0f1;
+}
+
+.more .right {
+    width: 70%;
+    height: auto;
+    display: inline-block;
+}
+
+.more .left {
+    width: 29%;
+    height: fit-content;
+    display: inline-block;
+    vertical-align: top;
+    direction: ltr;
+}
+
+.more .left .icon {
+    width: 109px;
+    height: 109px;
+    display: inline-block;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    margin-right: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+.more .left .icon img{
+    width: 75px;
+    height: 75px;
+    object-fit: cover;
+}
+
+.card {
+    background-color: #fff;
+    width: 100%;
+}
+
+.card h2#card {
+    width: 100%;
+    height: auto;
+    font-size: 24px;
+    font-weight: 600;
+    color: #62666d;
+    margin-bottom: 10px;
+}
+
+.content h2 {
+    color: #81858b;
+    font-size: 18px;
+    font-weight: 400;
+    margin: 5px 0;
+}
+
+.card p {
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    color: #81858b;
+    line-height: 30px;
+}
+
+#ch {
+    display: none;
+}
+
+#ch:checked~.content {
+    display: block;
+}
+
+#ch:checked~label[for=ch] {
+    display: none;
+}
+
+label[for=ch] {
+    display: inline-block;
+    cursor: pointer;
+    color: blue;
+}
+
+.content {
+    display: none;
+}
+
+label[for=ch] {
+    font-size: 12px;
+    color: #19bfd3;
+}
+footer .main .law{
+    width: 100%;
+    height: 90px;
+    padding: 32px 0;
+    font-size: 11px;
+    color: #81858b;
+    text-align: center;
+    border-top: 1px solid #f0f0f1;
+    box-sizing: border-box;
+}
+
+footer .bottom{
+    width: 100%;
+    background-color: #f0f0f1;
+    height: 160px;
+    margin: 0 auto;
+}
+footer .bottom .row-1{ 
+    width: 100%;
+    text-align: center;
+}
+footer .bottom .row-1 div{
+    border-bottom: 1px solid #e0e0e2;
+    padding: 0 20px;
+    cursor: pointer;
+    border-right: 1px solid #e0e0e2;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 12.2%;
+    height: 80px;
+    line-height: 80px;
+}
+footer .bottom .row-1 div svg{
+    width: 108px;
+    height: 20px;
+}
+
+footer .bottom .row-2{ 
+    width: 100%;
+    text-align: center;
+}
+footer .bottom .row-2 div{
+    border-bottom: 1px solid #e0e0e2;
+    padding: 0 20px;
+    cursor: pointer;
+    border-right: 1px solid #e0e0e2;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 14%;
+    height: 80px;
+    line-height: 80px;
+}
+footer .bottom .row-2 div svg{
+    width: 108px;
+    height: 20px;
+}
