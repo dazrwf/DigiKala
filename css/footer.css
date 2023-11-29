@@ -167,6 +167,8 @@ footer .main .storys #five p {
     color: #a1a3a8;
     text-align: right;
     margin-left: 32px;
+    cursor: pointer;
+
 }
 
 .about .us form {
@@ -230,6 +232,7 @@ footer .main .storys #five p {
     display: inline-block;
     position: absolute;
     top: 16px;
+
 }
 
 .app p {
@@ -259,6 +262,8 @@ footer .main .storys #five p {
     background-color: white;
     border-radius: 4px;
     margin: 8px;
+    cursor: pointer;
+
 
 }
 
@@ -270,6 +275,8 @@ footer .main .storys #five p {
     position: relative;
     display: inline-block;
     margin: 8px;
+    cursor: pointer;
+
 }
 
 .app .left svg:nth-of-type(2) {
@@ -280,6 +287,8 @@ footer .main .storys #five p {
     position: relative;
     display: inline-block;
     margin: 8px;
+    cursor: pointer;
+
 
 }
 
@@ -291,6 +300,7 @@ footer .main .storys #five p {
     position: relative;
     display: inline-block;
     margin: 8px;
+    cursor: pointer;
 }
 
 .more {
@@ -323,6 +333,7 @@ footer .main .storys #five p {
     margin-right: 8px;
     padding: 16px;
     box-sizing: border-box;
+    cursor: pointer;
 }
 .more .left .icon img{
     width: 75px;
