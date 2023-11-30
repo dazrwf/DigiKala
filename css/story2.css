@@ -6,6 +6,7 @@
     text-align: center;
     margin: 20px auto;
 }
+
 .story-2 div {
     width: 10%;
     height: 80px;
@@ -13,9 +14,11 @@
     vertical-align: middle;
     cursor: pointer;
 }
+
 .story-2 div i {
     font-size: 55px;
 }
+
 .story-2 div img {
     width: 55px;
     height: 55px;
@@ -23,6 +26,7 @@
     margin-left: auto;
     margin-right: auto;
 }
+
 .story-2 div h4 {
     font-size: 11px;
     font-weight: 700;

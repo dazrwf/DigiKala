@@ -1,4 +1,4 @@
-.story-3{
+.story-3 {
     width: 85%;
     height: 440px;
     padding: 16px 16px 40px 16px;
@@ -6,7 +6,8 @@
     margin: 0 auto;
 
 }
-.story-3 h3{
+
+.story-3 h3 {
     text-align: center;
     display: block;
     font-weight: 500;
@@ -15,20 +16,23 @@
     font-size: 1.5rem;
     margin-bottom: 36px;
 }
-.story-3 .first{
+
+.story-3 .first {
     width: 100%;
     height: 135px;
     text-align: center;
     margin-bottom: 30px;
 }
-.story-3 .first div{
+
+.story-3 .first div {
     width: 14%;
     height: 135px;
     display: inline-block;
     margin-right: -3px;
     cursor: pointer;
 }
-.story-3 .first div p{
+
+.story-3 .first div p {
     font-size: 12px;
     font-weight: 700;
     font-family: yekan;
@@ -36,7 +40,8 @@
     margin-top: 15px;
 
 }
-.story-3 .first div img{
+
+.story-3 .first div img {
     width: 100px;
     height: 100px;
     object-fit: cover;
@@ -45,19 +50,21 @@
 }
 
 
-.story-3 .secend{
+.story-3 .secend {
     width: 100%;
     height: 135px;
     text-align: center;
 }
-.story-3 .secend div{
+
+.story-3 .secend div {
     width: 14%;
     height: 135px;
     display: inline-block;
     margin-right: -3px;
     cursor: pointer;
 }
-.story-3 .secend div p{
+
+.story-3 .secend div p {
     font-size: 12px;
     font-weight: 700;
     font-family: yekan;
@@ -65,7 +72,8 @@
     margin-top: 15px;
 
 }
-.story-3 .secend div img{
+
+.story-3 .secend div img {
     width: 100px;
     height: 100px;
     object-fit: cover;

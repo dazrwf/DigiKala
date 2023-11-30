@@ -13,7 +13,8 @@
 .amazingshor svg {
     margin-top: 14.5px;
 }
-.amazingshor .items{
+
+.amazingshor .items {
     width: 60%;
     height: calc(100% - 24px);
     position: absolute;
@@ -21,7 +22,8 @@
     top: 12px;
     text-align: center;
 }
-.amazingshor .items div{
+
+.amazingshor .items div {
     width: calc(100% / 3 - 4.5px);
     height: 100%;
     display: inline-block;
@@ -30,14 +32,17 @@
     background-color: #fff;
     cursor: pointer;
 }
-.amazingshor .items div:nth-of-type(1){
+
+.amazingshor .items div:nth-of-type(1) {
     border-radius: 0 8px 8px 0;
 
 }
-.amazingshor .items div:nth-of-type(3){
+
+.amazingshor .items div:nth-of-type(3) {
     border-radius: 8px 0 0 8px;
 }
-.amazingshor .items div p{
+
+.amazingshor .items div p {
     width: 33%;
     font-size: 12px;
     position: absolute;
@@ -48,8 +53,9 @@
     cursor: pointer;
 
 }
-.amazingshor .items div img{
-    width:65%;
+
+.amazingshor .items div img {
+    width: 65%;
     height: 62px;
     object-fit: cover;
     position: absolute;

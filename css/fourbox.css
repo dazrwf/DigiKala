@@ -1,15 +1,17 @@
-.fourbox{
+.fourbox {
     width: 85%;
     height: fit-content;
     text-align: center;
     margin: 30px auto 0 auto;
 }
-.fourbox div{
+
+.fourbox div {
     width: 24.5%;
     height: fit-content;
     display: inline-block;
     border-radius: 16px;
 }
+
 .fourbox div img {
     width: 100%;
     object-fit: cover;

@@ -1,22 +1,25 @@
-.popular .swiper span{
+.popular .swiper span {
   position: absolute;
   left: 20px;
   top: 10px;
   font-size: 14px;
   color: #19bfd3;
 }
+
 .popular .swiper h4 {
   font-size: 21px;
   color: #000;
   margin: 10px 0;
   font-weight: 500;
 }
-.popular .swiper h4 i{
+
+.popular .swiper h4 i {
   font-size: 25px;
   color: orange;
   margin-left: 10px;
 }
-.popular .swiper{
+
+.popular .swiper {
   width: 85%;
   height: 400px;
   text-align: center;
@@ -26,19 +29,22 @@
   border-radius: 16px;
   margin-bottom: 30px;
 }
-.popular .swiper .swiper-slide{
+
+.popular .swiper .swiper-slide {
   width: 25% !important;
   height: 90% !important;
   display: inline-block;
 }
-.popular .swiper .swiper-slide .row{
+
+.popular .swiper .swiper-slide .row {
   width: 100%;
   height: 34%;
   border-bottom: 1px solid #f0f0f1;
   box-sizing: border-box;
   position: relative;
 }
-.popular .swiper .swiper-slide .row img{
+
+.popular .swiper .swiper-slide .row img {
   position: absolute;
   width: 86px;
   height: 86px;
@@ -46,7 +52,8 @@
   top: 8px;
   cursor: pointer;
 }
-.popular .swiper .swiper-slide .row span{
+
+.popular .swiper .swiper-slide .row span {
   text-align: right;
   position: absolute;
   right: 100px;
@@ -61,7 +68,8 @@
   line-height: 102px;
   cursor: pointer;
 }
-.popular .swiper .swiper-slide .row div{
+
+.popular .swiper .swiper-slide .row div {
   width: 60%;
   position: absolute;
   left: 0;
@@ -70,7 +78,7 @@
   color: #3f4064;
   font-weight: 400;
   overflow: hidden;
-  font-family: yekan,sans-serif;
+  font-family: yekan, sans-serif;
   padding-top: 35px;
   box-sizing: border-box;
   text-align: right;

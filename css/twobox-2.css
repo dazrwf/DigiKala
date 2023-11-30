@@ -1,4 +1,4 @@
-.twobox-2{
+.twobox-2 {
     width: 85%;
     height: fit-content;
     text-align: center;
@@ -6,12 +6,14 @@
     margin-left: auto;
     margin-right: auto;
 }
-.twobox-2 div{
+
+.twobox-2 div {
     width: 49.5%;
     display: inline-block;
     cursor: pointer;
 }
-.twobox-2 div img{
+
+.twobox-2 div img {
     width: 100%;
     object-fit: cover;
     border-radius: 16px;

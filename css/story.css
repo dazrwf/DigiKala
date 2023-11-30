@@ -1,27 +1,30 @@
-div.story{
+div.story {
     width: 90%;
     height: 130px;
     text-align: center;
     margin: 20px auto 0 auto;
     background-color: #fff;
 }
-div.story>div{
+
+div.story>div {
     width: 11%;
     height: 100px;
     display: inline-block;
     cursor: pointer;
 
 }
-div.story>div>img{
+
+div.story>div>img {
     width: 70px;
     border-radius: 50%;
     outline: 2px solid crimson;
-    outline-offset: 3px ;
+    outline-offset: 3px;
     margin-bottom: 5px;
     display: block;
     margin: 0 auto;
 }
-div.story>div>h4{
+
+div.story>div>h4 {
     font-size: 13px;
     font-family: yekan;
     font-weight: 300;
@@ -30,4 +33,3 @@ div.story>div>h4{
     margin-top: 10px;
 
 }
-

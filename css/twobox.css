@@ -1,15 +1,17 @@
-.twobox{
+.twobox {
     width: 85%;
     height: fit-content;
     text-align: center;
     margin: 0 auto;
 }
-.twobox div{
+
+.twobox div {
     width: 49.5%;
     display: inline-block;
     cursor: pointer;
 }
-.twobox div img{
+
+.twobox div img {
     width: 100%;
     object-fit: cover;
     border-radius: 16px;
