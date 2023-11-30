@@ -1,9 +1,9 @@
 .offer {
-    width: 85%;
+    width: 80%;
     height: 395px;
     padding: 0 10px;
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0px auto 20px auto;
 }
 
 .offer h2 {
@@ -32,6 +32,10 @@
     border-right: 1px solid #f0f0f1;
     position: relative;
     vertical-align: top;
+}
+
+.offer .main .column:nth-of-type(1) {
+    border-right: none;
 }
 
 .offer .main .column p {

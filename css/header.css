@@ -86,11 +86,13 @@ header>div.top>div.top-secend>div.search>input[type=search]::placeholder {
 }
 
 header>div.top>div.top-secend>div.login {
-    width: 15%;
+    width: auto;
     height: 70px;
     display: inline-block;
-    margin-right: -4px;
     vertical-align: top;
+    position: absolute;
+    left: 30px;
+
 }
 
 header>div.top>div.top-secend>div.login>a.register {

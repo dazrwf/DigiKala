@@ -1,5 +1,5 @@
 .selected {
-    width: 85%;
+    width: 80%;
     height: 815px;
     padding: 0 12px;
     box-sizing: border-box;
@@ -45,6 +45,10 @@
     box-sizing: border-box;
     position: relative;
     vertical-align: top;
+}
+
+.selected .main .row .product:last-of-type {
+    border-left: none;
 }
 
 .selected .main .row .product img {
